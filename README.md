@@ -108,3 +108,32 @@ The `<h1>` to `<h6>` tags are used to define HTML headings.
 <h4>heading4</h4>
 <h5>heading5</h5>
 <h6>heading6</h6>
+```
+
+## Formatting tags
+
+Formatting elements were designed to display special types of text:
+
+`<b>` - Bold text 
+`<strong>` - Important text 
+`<i>` - Italic text 
+`<small>` - Smaller text ...
+
+```html
+<p>
+	In publishing and <b>graphic design</b>, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on <strong>meaningful content</strong>.
+</p>
+<p>
+	Lorem ipsum may be used as a <small>placeholder</small> before <i>final copy is available</i>.
+</p>
+```
+
+
+## Comment in HTML
+You can add comments to your HTML source by using the following syntax:
+
+```html
+<!-- This is a comment -->  
+<p>This is a paragraph.</p>  
+<!-- Remember to add more information here -->
+```	
