@@ -137,3 +137,32 @@ You can add comments to your HTML source by using the following syntax:
 <p>This is a paragraph.</p>  
 <!-- Remember to add more information here -->
 ```	
+## Image Tag
+The `<img>` tag is used to embed an image in an HTML page.
+
+```html
+<img src="webdenj.png" alt="webdenj.png" width="200" height="100" />
+```
+## List Tag
+
+**Order lists** An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag.
+
+```html
+<ol>
+	<li>Home</li>
+	<li>About Us</li>
+	<li>News</li>
+	<li>Contact Us</li>
+</ol>
+```
+
+**Unorder list** An unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag.
+
+```html
+<ul>
+	<li>Home</li>
+	<li>About Us</li>
+	<li>News</li>
+	<li>Contact Us</li>
+</ul>
+```
