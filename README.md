@@ -166,3 +166,159 @@ The `<img>` tag is used to embed an image in an HTML page.
 	<li>Contact Us</li>
 </ul>
 ```
+## Link tag
+
+The `<a>` tag defines a hyperlink, which is used to link from one page to another.
+
+```html
+<a href="http://google.com"> Go to Google</a>
+```
+
+A linked page is normally displayed in the current browser window, unless you specify another target.
+
+```html
+<a href="http://google.com" target="_blank"> Go to Google</a>
+```
+
+> Target attribute values:
+>  _self: _Opens the linked document in the same frame as it was clicked (**this is default**)_ 
+>  _blank: _Opens the linked document in a new window or tab_
+>  _parent: _Opens the linked document in the parent frame_ 
+>  _top: _Opens the linked document in the full body of the window_ 
+
+
+The `rel` attribute specifies the relationship between the current document and the linked document.
+
+ 
+ ```html
+<a rel="nofollow" href="http://google.com" target="_blank"> Go to Google</a>
+<a rel="author" href="http://webdenj.com" target="_blank"> Go to Webdenj</a>
+```
+
+> Search engines can use this attribute to get more information about a link!
+## Table Tag
+
+The `<table>` tag defines an HTML table. An HTML table consists of one `<table>` element and one or more `<tr>`  `<th>` and `<td>` elements.
+
+```html
+<table>  
+   <tr>  
+       <th>Name</th>  
+       <th>Family</th> 
+       <th>Age</th>  
+   </tr>  
+   <tr>  
+       <td>Mohammad</td>  
+       <td>Hosseini</td>  
+       <td>30</td>
+   </tr>
+   <tr>  
+       <td>Ali</td>  
+       <td>Mohammadi</td>  
+       <td>25</td>
+   </tr>  
+</table>
+```
+An HTML table with a `<thead>` and `<tbody>` element:
+
+```html
+<table>
+    <thead>  
+        <tr>  
+            <th>Name</th>  
+            <th>Family</th> 
+            <th>Age</th>  
+        </tr>
+    </thead> 
+    <tbody>
+        <tr>  
+            <td>Mohammad</td>  
+            <td>Hosseini</td>  
+            <td>30</td>
+        </tr>
+        <tr>  
+            <td>Ali</td>  
+            <td>Mohammadi</td>  
+            <td>25</td>
+        </tr>
+    </tbody> 
+    </table>
+```
+## Video Tag
+
+The HTML `<video>` element is used to show a video on a web page.
+
+```html
+<video width="320"  height="240"  controls>  
+	<source src="movie.mp4"  type="video/mp4">  
+	Your browser does not support the video tag.  
+</video>
+```
+
+To start a video automatically, use the `autoplay` attribute:
+
+```html
+<video width="320"  height="240"  autoplay>  
+	<source src="movie.mp4"  type="video/mp4">    
+	Your browser does not support the video tag.  
+</video>
+```
+
+## Audio Tag
+
+The HTML  `<audio>`  element is used to play an audio file on a web page.
+
+```html
+<audio controls>    
+	<source src="audio.mp3"  type="audio/mpeg">  
+	Your browser does not support the audio element.  
+</audio>
+```
+
+To start an audio file automatically, use the `autoplay` attribute:
+
+```html
+<audio controls autoplay>    
+	<source src="audio.mp3"  type="audio/mpeg">  
+	Your browser does not support the audio element.  
+</audio>
+```
+	
+## Forms
+An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+
+```html
+<form action="http://webdenj.com" method="GET">
+...
+</form>
+```
+
+**Input tag** One of the most used form element is the `<input>` element. The `<input>` element can be displayed in several ways, depending on the `type` attribute.
+
+```html
+<label for="fname">First name:</label>  
+<input type="text" id="fname" name="fname">
+```
+
+> text: _Displays a single-line text input field_  
+> radio: _Displays a radio button (for selecting one of many choices)_  
+> checkbox: _Displays a checkbox (for selecting zero or more of many choices)_  
+> submit: Displays a submit button (for submitting the form)_ 
+> button: _Displays a clickable button_  
+> color: _Displays a color picker_ 
+> file: _ Display a "Browse" button for file uploads._
+
+`<input type="submit">` defines a button for **submitting** form data to a **form-handler**:
+
+```html
+<input type="submit" value="Submit">
+```
+
+**Textarea tag** The `<textarea>` element defines a multi-line input field (a text area):
+
+```html
+<textarea name="message" rows="10" cols="30">  
+	The cat was playing in the garden.  
+</textarea>
+```
