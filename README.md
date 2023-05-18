@@ -322,3 +322,53 @@ An HTML form is used to collect user input. The user input is most often sent to
 	The cat was playing in the garden.  
 </textarea>
 ```
+**Select tag** The `<select>` element defines a drop-down list:
+```html
+<select name="cars">  
+    <option value="volvo">Volvo</option>  
+    <option value="benz">Benz</option>  
+    <option value="fiat">Fiat</option>  
+    <option value="audi">Audi</option>  
+</select>
+```
+
+`<input type="checkbox">` defines a **checkbox**:
+
+```html
+<label for="RememberMe">Remember Me</label>
+<input type="checkbox" id="RememberMe" name="remember">
+```
+
+`<input type="radio">` defines a **radio button**:
+
+```html 
+<label for="html">HTML</label>
+<input type="radio" id="html" name="fav_language" value="HTML">
+<label for="css">CSS</label>    
+<input type="radio" id="css" name="fav_language" value="CSS">
+<label for="javascript">JavaScript</label>     
+<input type="radio" id="javascript" name="fav_language" value="JavaScript">  
+```
+ `<input type="color">` defines a color picker.
+```html
+<label for="favcolor">Select your favorite color:</label>
+<input type="color" id="favcolor" name="favcolor">
+```
+`<input type="file">` defines a file-select field and a "Browse" button for file uploads.
+
+```html
+<label for="myfile">Select a file:</label>  
+<input type="file"  id="myfile"  name="myfile">
+```
+## iFrame Tag
+
+The HTML `<iframe>` tag specifies an inline frame.
+
+```html
+<iframe src="url"  frameborder="0"></iframe>
+```
+The height and width are specified in pixels by default:
+
+```html
+<iframe src="https://webdenj.com"  width="300" height="200" frameborder="0"></iframe>
+```
