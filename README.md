@@ -372,3 +372,49 @@ The height and width are specified in pixels by default:
 ```html
 <iframe src="https://webdenj.com"  width="300" height="200" frameborder="0"></iframe>
 ```
+## id Attribute
+
+The HTML `id` attribute is used to specify a unique id for an HTML element.
+
+```html
+<h2 id="title">Webdenj</h2>
+<p id="caption">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad temporibus voluptatum consectetur maiores dignissimos reiciendis itaque placeat nobis recusandae alias!</p>
+<hr>
+<h3>Webdenj</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus beatae error minima, doloremque fugit neque at quam!</p>
+```
+
+## class Attribute
+
+The HTML `class` attribute is used to specify a class for an HTML element.
+
+```html
+<h2 class="title">Webdenj</h2>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad temporibus voluptatum consectetur maiores dignissimos reiciendis itaque placeat nobis recusandae alias!</p>
+<hr>
+<h3 class="title">Webdenj</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus beatae error minima, doloremque fugit neque at quam!</p>
+```
+
+> The class attribute can be used on any HTML element.
+
+## divider  Tag
+The `<div>` tag defines a division or a section in an HTML document.
+
+```html
+<div id="header"> Website Header </div>
+<div id="navbar"> Website Navbar </div>
+<div id="main">
+    <div id="sidbar"> Website Sidebar </div>
+    <div id="content"> Website Content </div>
+</div>
+<div id="footer"> Website Footer </div>
+```
+
+## Span Tag
+
+The `<span>` tag is an inline container used to mark up a part of a text, or a part of a document.
+
+```html
+<p>Lorem ipsum dolor sit amet,<span style="color:red">consectetur</span> adipiscing elit.</p>
+```
