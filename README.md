@@ -418,3 +418,44 @@ The `<span>` tag is an inline container used to mark up a part of a text, or a p
 ```html
 <p>Lorem ipsum dolor sit amet,<span style="color:red">consectetur</span> adipiscing elit.</p>
 ```
+## Semantic Tags
+
+A semantic element clearly describes its meaning to both the browser and the developer.
+
+```html
+<header> Website Header </header>
+<nav> Website navbar </nav>
+<main>
+    <aside>Website Sidebar</aside>
+    <sction>
+    	<article>Article 1</article>
+    	<article>Article 2</article>
+    	<article>Article 3</article>
+    	<article>Article 4</article>
+    </sction>
+</main>
+<footer>Website Footer</footer>
+```
+
+## Section Tag
+The `<section>` tag defines a section in a document.
+
+```html
+<section>
+     <h2>webdenj website</h2>
+     <p>webdenj Academy is a cozy environment for current or future web designers.</p>
+</section>
+```
+
+## Article Tag
+
+The `<article>` tag specifies independent, self-contained content.
+
+```html
+<h1>webdenj</h1>
+
+<article>
+     <h2>webdenj website</h2>
+     <p>webdenj Academy is a cozy environment for current or future web designers.</p>
+</article>
+```
