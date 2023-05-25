@@ -459,3 +459,22 @@ The `<article>` tag specifies independent, self-contained content.
      <p>webdenj Academy is a cozy environment for current or future web designers.</p>
 </article>
 ```
+
+## Meta tags
+
+The `<meta>` tag defines metadata about an HTML document. Metadata is data (information) about data.
+
+```html
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="description" content="Free Web tutorials">  
+    <meta name="keywords" content="HTML, CSS, JavaScript">  
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+```
+
+> description: _Define a description of your web page_
+>  keywords: _Define keywords for search engines_  
+> author: _Define the author of a page_
+> viewport: _Setting the viewport to make your website look good on all devices_
